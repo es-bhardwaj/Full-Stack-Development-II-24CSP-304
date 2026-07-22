@@ -9,7 +9,7 @@ function App() {
   const remBtn = () => {
     setCount(count-1);
   }
-  const reset = () => {12
+  const reset = () => {
     setCount(0);
   }
 
