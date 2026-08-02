@@ -10,7 +10,7 @@ function App() {
   }, [color]);
 
   return (
-    <div>
+    <div className="button-container">
       <button onClick={()=> setColor('red')}>RED</button>
       <button onClick={()=> setColor('blue')}>BLUE</button>
       <button onClick={()=> setColor('green')}>GREEN</button>
